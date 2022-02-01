@@ -10,8 +10,6 @@ from menu import *
 
 if platform.system() == 'Windows':
     os.environ['SDL_VIDEODRIVER'] = 'windib'    # Ensure compatability
-else:
-    os.environ["SDL_VIDEODRIVER"] = "dummy"
 os.environ['SDL_VIDEO_CENTERED'] = '1'  # Centre game window
 
 
