@@ -1,21 +1,13 @@
 from pygame import *
 from random import *
+from modules.menu import *
 
 import os
-import sys
 import platform
-sys.path.append('modules')  # Access my module folder for importing
-
-from menu import *
 
 if platform.system() == 'Windows':
     os.environ['SDL_VIDEODRIVER'] = 'windib'    # Ensure compatability
 os.environ['SDL_VIDEO_CENTERED'] = '1'  # Centre game window
-
-
-# ############################################################################ #
-# #    Worked on for 6:30                                                    # #
-# ############################################################################ #
 
 init()
 
